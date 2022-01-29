@@ -1,0 +1,13 @@
+# spring:
+#   mail:
+#     host: smtp.gmail.com
+#     username: swh2237370080@gmail.com
+#     password: cbfyadbrqonsbuvq
+
+spring:
+  mail:
+    host: smtp.189.cn
+    username: 13375622942@189.cn
+    password: mijfa@ucbiN2ki
+
+to-mails: sunwenhao_id@icloud.com

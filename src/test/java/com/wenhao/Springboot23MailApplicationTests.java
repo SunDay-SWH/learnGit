@@ -1,0 +1,25 @@
+package com.wenhao;
+
+import com.wenhao.service.SendMailService;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.scheduling.annotation.Scheduled;
+
+@SpringBootTest
+class Springboot23MailApplicationTests {
+    @Autowired
+    private SendMailService sendMailService;
+
+    @Test
+    void contextLoads() {
+        sendMailService.sendMail();
+    }
+
+    @Test
+    void testMessage() {
+        String s = sendMailService.transForDate();
+        System.out.println(s);
+    }
+
+}

@@ -1,0 +1,24 @@
+#spring:
+#  mail:
+#    host: smtp.163.com
+#    username: littlejiang2333@163.com
+#    password: NYDIQPRSMJWBOMEC
+
+spring:
+  mail:
+    host: smtp.189.cn
+    username: 13375622942@189.cn
+    password: mijfa@ucbiN2ki
+
+to-mails:
+#  2270666837@qq.com,
+#  sunjiyi666@foxmail.com,
+#  sunjiyi666@163.com,
+#  sunjiyi666@gmail.com,
+#  messages-noreply@linkedin.com,
+#  1150290376@qq.com,
+#  1809215933@qq.com,
+#  473559214@qq.com,
+#  1132587471@qq.com,
+#  1597138965@qq.com,
+  2237370080@qq.com
